@@ -18,6 +18,6 @@ Steps to run :
 
 1. replace <PATH_TO_REPO_ON_LOCAL> in my-bank/docker-compose.yaml
 2. run docker-compose.yaml using <code>docker-compose up</code>
-3. once up, access app at http://localhost:80 (app can also be accessed at my-bank.com if it is added in /etc/hosts)
+3. once up, access app at https://localhost:80 (app can also be accessed at https://my-bank.com if it is added in /etc/hosts)
 4. upon clicking on `customer portal`, app gets redirected to port 8080 via nginx proxy we created
 4. upon clicking on `employee portal`, app gets redirected to port 8081 via nginx proxy we created
